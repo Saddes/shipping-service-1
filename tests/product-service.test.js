@@ -17,7 +17,7 @@ describe('Product service', function () {
       })
 
     let weight = await productService.getProductWeight('13')
-    expect(weight).toBe(15.5)
+    expect(weight).toBe(155)
   })
 })
 

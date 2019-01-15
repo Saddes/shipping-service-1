@@ -8,7 +8,7 @@ module.exports = {
       .get(`https://${URL}/${productId}`)
       .then(response => {
         if (response.data && !Number.isNaN(parseFloat(response.data.weightLB))) {
-          return response.data.weightLB
+          return response.data.weightLB*10
         } else {
           return Promise.reject('Invalid response object')
         }
