@@ -1,6 +1,6 @@
 // src/services/product-service.js
 var axios = require('axios')
-axios.defaults.adapter = require('axios/lib/adapters/http')
+//axios.defaults.adapter = require('axios/lib/adapters/http')
 
   module.exports = {
     getProductWeight: async function (productId) {

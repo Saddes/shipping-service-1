@@ -1,7 +1,8 @@
-// tests/product-service.test.js
 /**
 * @jest-environment node
 */
+
+// tests/product-service.test.js
 var productService = require('../src/services/product-service')
 var nock = require('nock')
 
