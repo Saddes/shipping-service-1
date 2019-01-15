@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nock": "^10.0.6",
+    "sinon": "^7.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
 }
